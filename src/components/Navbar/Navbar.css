@@ -1,0 +1,14 @@
+.navHeader{
+    background-color: antiquewhite;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbarStyle{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px;
+}
