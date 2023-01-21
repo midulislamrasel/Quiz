@@ -27,7 +27,10 @@ function App() {
         },
         {
           path: '/order',
-          element:<Order></Order>
+          element:<Order></Order>,
+          loader:() => {
+            return fetch ('https://jsonplaceholder.typicode.com/users')
+          },
         },
         {
           path: '/quiz',
